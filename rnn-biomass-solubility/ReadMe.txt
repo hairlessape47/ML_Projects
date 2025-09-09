@@ -1,0 +1,5 @@
+This project applies recurrent neural networks (RNNs) to scientific data. In the first part, I built a GRU-based model to predict how the mass fractions of 27 chemical species change over time during biomass gasification in a fluidized bed reactor. The model uses the initial reactor temperature and species fractions as input and predicts their values across 100 time steps. I compared the predicted time-series results with the actual data to check accuracy. 
+
+In the second part, I trained a recurrent model to predict physical properties of molecules directly from their SMILES string representations. This involved turning chemical structures into sequences and using the RNN to learn patterns that relate structure to properties. 
+
+The results include plots of predicted versus actual values for biomass species concentrations over time, error metrics for model performance, and examples of how the RNN can capture trends in molecular data. This project demonstrates how sequence models like GRUs can be applied to both reactor time-series forecasting and text-based molecular property prediction.
